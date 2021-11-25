@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Roboto+Mono:wght@100&display=swap');
+body{
+background-color: #000;
+font-family: 'Modak', cursive;
+text-align:center;
+color:#fff; 
+}
+
+
+.main-text{
+font-family: 'Modak', cursive;
+display:flex; 
+margin-top:200px;
+background:url(../source/2.jpeg);
+font-size:140px; 
+color:transparent;
+-webkit-background-clip:text;  
+animation: rsd  15s infinite-linear;  
+}
+@keyframes rsd{
+	from{
+background-position: 0 0 ;
+	}
+	to{
+background-position: 90% 100% ;
+	}
+} 
